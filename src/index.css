@@ -1181,30 +1181,29 @@ footer > p {
   .service-card h3 {
     margin-top: 55px;
   }
-
-  /* ========================================
-     SELECTED WORK - MOBILE
-  ======================================== */
-
+/* SELECTED WORK - MOBILE */
+@media (max-width: 700px) {
   .work-heading {
-    margin-top: 35px;
+    margin-top: 30px;
   }
 
   .work-heading p {
-    margin-top: 20px;
-    font-size: 0.85rem;
-    line-height: 1.7;
+    margin-top: 16px;
+    font-size: 0.78rem;
+    line-height: 1.6;
   }
 
   .portfolio-grid {
-    margin-top: 35px;
-    gap: 12px;
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .portfolio-card,
   .portfolio-card.portfolio-large {
-    min-height: 280px;
-    height: 280px;
+    min-height: 0;
+    height: 210px;
+    aspect-ratio: auto;
   }
 
   .portfolio-card img {
@@ -1214,34 +1213,35 @@ footer > p {
   }
 
   .portfolio-overlay {
-    padding: 18px;
+    padding: 14px;
   }
 
   .portfolio-meta {
-    gap: 10px;
-    margin-bottom: 5px;
+    gap: 8px;
+    margin-bottom: 4px;
   }
 
   .portfolio-overlay span {
-    font-size: 0.62rem;
+    font-size: 0.55rem;
   }
 
   .portfolio-meta span:last-child {
-    font-size: 0.55rem;
     opacity: 1;
     transform: translateX(0);
+    font-size: 0.5rem;
   }
 
   .portfolio-overlay h3 {
-    margin-top: 6px;
-    font-size: 1.15rem;
+    margin-top: 5px;
+    font-size: 1rem;
   }
 
   .portfolio-overlay p {
-    margin-top: 5px;
-    font-size: 0.75rem;
-    line-height: 1.5;
+    margin-top: 4px;
+    font-size: 0.68rem;
+    line-height: 1.4;
   }
+}
 
   /* ========================================
      FEATURE
